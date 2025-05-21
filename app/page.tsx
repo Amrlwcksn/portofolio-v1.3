@@ -13,7 +13,7 @@ export default function Home() {
       <div className="px-8 py-20 md:px-40">
         <FadeContent>
           <Image
-            src="/images/wicaksono.png"
+            src="/Images/wicaksono.png"
             width={80} // kira-kira setara dengan w-20
             height={80} // supaya proporsional, bisa disesuaikan kalau gambarnya gak kotak
             className="rounded-4xl"
@@ -43,7 +43,7 @@ export default function Home() {
           <h1 className="font-medium">⭐Vids&photos</h1>
           <div>
             <Image
-              src="/images/gambar8.jpg"
+              src="/Images/gambar8.jpg"
               alt="Vids&Photos 1"
               className="rounded-t-lg"
               loading="lazy"
@@ -51,7 +51,7 @@ export default function Home() {
               height={360} // Contoh height
             />
             <Image
-              src="/images/gambar9.jpg"
+              src="/Images/gambar9.jpg"
               alt="Vids&Photos 2"
               className="mt-2 rounded-b-lg"
               loading="lazy"
@@ -76,7 +76,7 @@ export default function Home() {
           <h1 className="font-medium">⭐Web pages</h1>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 -mt-2 justify-items-center">
             <Image
-              src="/images/web1.png"
+              src="/Images/web1.png"
               alt="Web page 1"
               className="transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg"
               loading="lazy"
@@ -84,7 +84,7 @@ export default function Home() {
               height={126} // misal proporsinya 16:9, sesuaikan
             />
             <Image
-              src="/images/web2.png"
+              src="/Images/web2.png"
               alt="Web page 2"
               className="transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg"
               loading="lazy"
@@ -92,7 +92,7 @@ export default function Home() {
               height={126}
             />
             <Image
-              src="/images/web3.png"
+              src="/Images/web3.png"
               alt="Web page 3"
               className="transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg"
               loading="lazy"
@@ -100,7 +100,7 @@ export default function Home() {
               height={126}
             />
             <Image
-              src="/images/web4.png"
+              src="/Images/web4.png"
               alt="Web page 4"
               className="transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg"
               loading="lazy"
@@ -150,7 +150,7 @@ export default function Home() {
           <h1 className="font-medium">Tech Events I&apos;ve Joined</h1>
           <div className="mt-3 flex justify-center">
             <Image
-              src="/images/event1.jpg"
+              src="/Images/event1.jpg"
               alt="Google Developer Group Semarang"
               className="transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg rounded-lg"
               loading="lazy"
