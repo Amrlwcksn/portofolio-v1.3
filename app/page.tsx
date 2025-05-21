@@ -1,6 +1,7 @@
 'use client'
 import FadeContent from "./components/FadeContent/FadeContent";
 import Clock from "./components/clock";
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -11,9 +12,11 @@ export default function Home() {
 
       <div className="px-8 py-20 md:px-40">
         <FadeContent>
-          <img
+          <Image
             src="/images/wicaksono.png"
-            className="w-20 h-auto rounded-4xl"
+            width={80} // kira-kira setara dengan w-20
+            height={80} // supaya proporsional, bisa disesuaikan kalau gambarnya gak kotak
+            className="rounded-4xl"
             alt="Ahmad Amirul Wicaksono"
             loading="lazy"
           />
@@ -39,17 +42,21 @@ export default function Home() {
         <FadeContent>
           <h1 className="font-medium">⭐Vids&photos</h1>
           <div>
-            <img
+            <Image
               src="/images/gambar8.jpg"
               alt="Vids&Photos 1"
               className="rounded-t-lg"
               loading="lazy"
+              width={640} // Contoh width, sesuaikan ukuran asli gambar
+              height={360} // Contoh height
             />
-            <img
+            <Image
               src="/images/gambar9.jpg"
               alt="Vids&Photos 2"
               className="mt-2 rounded-b-lg"
               loading="lazy"
+              width={640}
+              height={360}
             />
           </div>
           <div className="mt-5">
@@ -68,29 +75,37 @@ export default function Home() {
         <FadeContent>
           <h1 className="font-medium">⭐Web pages</h1>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 -mt-2 justify-items-center">
-            <img
+            <Image
               src="/images/web1.png"
               alt="Web page 1"
-              className="w-40 md:w-48 lg:w-56 transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg"
+              className="transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg"
               loading="lazy"
+              width={224} // lg:w-56 = 14rem * 16px = 224px
+              height={126} // misal proporsinya 16:9, sesuaikan
             />
-            <img
+            <Image
               src="/images/web2.png"
               alt="Web page 2"
-              className="w-40 md:w-48 lg:w-56 transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg"
+              className="transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg"
               loading="lazy"
+              width={224}
+              height={126}
             />
-            <img
+            <Image
               src="/images/web3.png"
               alt="Web page 3"
-              className="w-40 md:w-48 lg:w-56 transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg"
+              className="transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg"
               loading="lazy"
+              width={224}
+              height={126}
             />
-            <img
+            <Image
               src="/images/web4.png"
               alt="Web page 4"
-              className="w-40 md:w-48 lg:w-56 transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg"
+              className="transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg"
               loading="lazy"
+              width={224}
+              height={126}
             />
           </div>
           <div>
@@ -134,11 +149,13 @@ export default function Home() {
         <FadeContent>
           <h1 className="font-medium">Tech Events I've Joined</h1>
           <div className="mt-3 flex justify-center">
-            <img
+            <Image
               src="/images/event1.jpg"
               alt="Google Developer Group Semarang"
-              className="w-70 h-auto md:w-48 lg:w-56 transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg rounded-lg"
+              className="transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg rounded-lg"
               loading="lazy"
+              width={224} // Sesuaikan
+              height={126}
             />
           </div>
           <div className="mt-3">
