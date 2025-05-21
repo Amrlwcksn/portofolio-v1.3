@@ -12,7 +12,7 @@ export default function Home() {
 
     <div className="px-8 py-20 md:px-40">
       <FadeContent>
-      <img src="images/wicaksono.png" className="w-20 h-full rounded-4xl" alt="" />
+      <img src="/images/wicaksono.png" className="w-20 h-full rounded-4xl" alt="" />
       </FadeContent>
       <FadeContent>
       <h1 className="text-4xl md:text-5xl mt-5">Digital Product Wiz</h1>
@@ -49,8 +49,8 @@ export default function Home() {
     <FadeContent>
       <h1 className="font-medium">⭐Vids&photos</h1>
       <div>
-        <img src="images/gambar8.jpg" alt="" className="rounded-t-lg" />
-        <img src="images/gambar9.jpg" className="mt-2 rounded-b-lg" alt="" />
+        <img src="/images/gambar8.jpg" alt="" className="rounded-t-lg" />
+        <img src="/images/gambar9.jpg" className="mt-2 rounded-b-lg" alt="" />
       </div>
       <div className="mt-5">
         <a href="/vidsphots" className="mt-3 bg-blue-500 hover:bg-blue-600 text-white font-medium px-4 py-2 rounded-lg shadow-md transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg hover:cursor-pointer">More</a>
@@ -63,10 +63,10 @@ export default function Home() {
     <FadeContent>
       <h1 className="font-medium">⭐Web pages</h1>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 -mt-2 justify-items-center">
-        <img src="images/web1.png" alt="" className="w-40 md:w-48 lg:w-56 transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg" />
-        <img src="images/web2.png" alt="" className="w-40 md:w-48 lg:w-56 transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg" />
-        <img src="images/web3.png" alt="" className="w-40 md:w-48 lg:w-56 transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg" />
-        <img src="images/web4.png" alt="" className="w-40 md:w-48 lg:w-56 transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg" />
+        <img src="/images/web1.png" alt="" className="w-40 md:w-48 lg:w-56 transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg" />
+        <img src="/images/web2.png" alt="" className="w-40 md:w-48 lg:w-56 transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg" />
+        <img src="/images/web3.png" alt="" className="w-40 md:w-48 lg:w-56 transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg" />
+        <img src="/images/web4.png" alt="" className="w-40 md:w-48 lg:w-56 transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg" />
       </div>
       <div>
         <span className="text-xs text-gray-500 italic ">
@@ -119,11 +119,11 @@ export default function Home() {
       Tech Events I've Joined
       </h1>
       <div className="mt-3 flex justify-center">
-        <img src="images/event1.jpg" className=" w-70 h-full md:w-48 lg:w-56 transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg rounded-lg" alt="" />
+        <img src="/images/event1.jpg" className=" w-70 h-full md:w-48 lg:w-56 transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg rounded-lg" alt="" />
       </div>
       <div className="mt-3">
         <h1 className="font-bold">
-          Google Developer Gorub <span className="text-xs text-gray-500">semarang</span>
+          Google Developer Gorup <span className="text-xs text-gray-500">semarang</span>
         </h1>
         <p className="text-neutral-500">
         adalah komunitas global berisi para pengembang (developer), desainer, dan tech enthusiast yang ingin belajar, berbagi, dan berkembang bersama lewat berbagai kegiatan seputar teknologi, khususnya yang berhubungan dengan ekosistem Google.
