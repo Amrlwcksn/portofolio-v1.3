@@ -2,11 +2,33 @@
 import FadeContent from "./components/FadeContent/FadeContent";
 import Clock from "./components/clock";
 import Image from 'next/image';
+import Link from "next/link";
+import { useCallback } from "react";
+
+
+  
 
 export default function Home() {
+  // Fungsi scroll ke atas dengan smooth behavior
+  const scrollToTop = useCallback(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
+
   return (
     <>
       {/* Navbar */}
+      <nav className="py-4 sticky top-0 z-50 bg-white shadow-sm">
+      <FadeContent>
+
+        <div className="md:px-60 px-8 ">
+          {/* Logo */}
+          <div className="font-bold text-gray-800 text-2xl">
+            <a onClick={scrollToTop} className="text-5xl hover:cursor-pointer">Portofolio</a>
+            <p className="text-xs text-gray-500 font-sans">Craafting digital experience</p> 
+          </div>
+        </div>
+        </FadeContent>
+      </nav>
 
       {/* Headline */}
 
@@ -26,7 +48,7 @@ export default function Home() {
           <h1 className="text-4xl md:text-5xl -mt-1">Making cool photos, </h1>
           <h1 className="text-4xl md:text-5xl -mt-1"> vids & websites happen.</h1>
           <p className="font-sans mt-3 text-neutral-500">
-            I&apos;mm Ahmad Amirul Wicaksono. <br />
+            I&apos;m Ahmad Amirul Wicaksono. <br />
             From code to camera — Blending tech & creativity for impact, <br />
           </p>
           <p className="font-sans text-neutral-500 text-xs">
