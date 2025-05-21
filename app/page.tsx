@@ -10,7 +10,7 @@ export default function Home() {
 
       {/* Headline */}
 
-      <div className="px-8 py-20 md:px-40">
+      <div className="px-8 py-20 md:px-60">
         <FadeContent>
           <Image
             src="/Images/wicaksono.png"
@@ -38,14 +38,14 @@ export default function Home() {
       </div>
 
       {/* vidsfoto  */}
-      <div className="px-8 py-10 mt-5 font-sans md:px-40">
+      <div className="px-8 py-10 mt-5 font-sans md:px-60">
         <FadeContent>
           <h1 className="font-medium">⭐Vids&photos</h1>
-          <div>
+          <div >
             <Image
               src="/Images/gambar8.jpg"
               alt="Vids&Photos 1"
-              className="rounded-t-lg"
+              className="rounded-t-lg "
               loading="lazy"
               width={640} // Contoh width, sesuaikan ukuran asli gambar
               height={360} // Contoh height
@@ -71,7 +71,7 @@ export default function Home() {
       </div>
 
       {/* web */}
-      <div className="px-8 py-5 font-sans md:px-40">
+      <div className="px-8 py-5 font-sans md:px-60">
         <FadeContent>
           <h1 className="font-medium">⭐Web pages</h1>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 -mt-2 justify-items-center">
@@ -128,7 +128,7 @@ export default function Home() {
       </div>
 
       {/* experience */}
-      <div className="px-8 py-5 font-sans md:px-40 mt-15">
+      <div className="px-8 py-5 font-sans md:px-60 mt-15">
         <FadeContent>
           <h1 className="font-medium">Experience</h1>
           <div className="flex items-center justify-center gap-4 md:gap-6 my-4">
@@ -145,7 +145,7 @@ export default function Home() {
       </div>
 
       {/* komunitas  */}
-      <div className="px-8 py-5 font-sans md:px-40 mt-15">
+      <div className="px-8 py-5 font-sans md:px-60 mt-15">
         <FadeContent>
           <h1 className="font-medium">Tech Events I&apos;ve Joined</h1>
           <div className="mt-3 flex justify-center">
@@ -154,8 +154,8 @@ export default function Home() {
               alt="Google Developer Group Semarang"
               className="transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg rounded-lg"
               loading="lazy"
-              width={224} // Sesuaikan
-              height={126}
+              width={640}
+              height={360}
             />
           </div>
           <div className="mt-3">
@@ -178,7 +178,7 @@ export default function Home() {
       </div>
 
       {/* hubungi saya */}
-      <div className="px-8 py-5 font-sans md:px-40 mt-15">
+      <div className="px-8 py-5 font-sans md:px-60 mt-15">
         <FadeContent>
           <h1 className="font-medium">Hubungi saya</h1>
           <div className="flex items-center justify-center gap-4 md:gap-6 my-4">
@@ -221,7 +221,7 @@ export default function Home() {
       </div>
 
       {/* footer */}
-      <div className="px-8 py-5 font-sans md:px-40 mt-13">
+      <div className="px-8 py-5 font-sans md:px-60 mt-13">
         <h1 className="font-medium text-center text-gray-600 text-xs">
           © 2025 Ahmad Amirul Wicaksono. All rights reserved.
         </h1>
