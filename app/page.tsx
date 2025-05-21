@@ -3,6 +3,7 @@ import FadeContent from "./components/FadeContent/FadeContent";
 import Clock from "./components/clock";
 import Image from 'next/image';
 import { useCallback } from "react";
+import Link from "next/link";
 
 
   
@@ -55,6 +56,13 @@ export default function Home() {
             program studi Pendidikan Teknologi Informasi.
           </p>
           <Clock />
+          <div className="border-2 border-zinc-300 hover:transition-all duration-300 p-2 rounded-3xl w-full max-w-fit ">
+            <Link href="/pomodoro">
+              <button className="font-sans text-neutral-500 hover:scale-105 transition duration-200 px-4 py-2 rounded-2xl hover:bg-blue-600 hover:text-white hover:cursor-pointer w-full sm:w-auto">
+                Pomodoro-app
+              </button>
+            </Link>
+          </div>
         </FadeContent>
       </div>
 
@@ -82,7 +90,7 @@ export default function Home() {
           </div>
           <div className="mt-5">
             <a
-              href="/vidsphots"
+              href="/phots"
               className="mt-3 bg-blue-500 hover:bg-blue-600 text-white font-medium px-4 py-2 rounded-lg shadow-md transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg hover:cursor-pointer"
             >
               More
