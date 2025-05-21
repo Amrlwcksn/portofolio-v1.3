@@ -1,6 +1,5 @@
 'use clinet'
 import FadeContent from "../components/FadeContent/FadeContent";
-import Image from 'next/image';
 import Link from "next/link";
 
 const phots =()=>{
@@ -21,16 +20,16 @@ const phots =()=>{
 
     <div className="px-8 mt-10 flex justify-center md:px-40 font-sans">
     <div className="flex flex-wrap items-center justify-center gap-4 md:gap-x-6 border-2 border-zinc-300 hover:transition-all duration-300 p-2 rounded-3xl w-full max-w-fit mx-auto">
-      <Link href="/phots">
+      <a href="/phots">
         <button className="hover:scale-105 transition duration-200 px-4 py-2 rounded-2xl hover:bg-blue-600 hover:text-white w-full sm:w-auto">
           Foto
         </button>
-      </Link>
-      <Link href="/vids">
+      </a>
+      <a href="/vids">
         <button className="hover:scale-105 transition duration-200 px-4 py-2 rounded-2xl hover:bg-blue-600 hover:text-white w-full sm:w-auto">
           Video
         </button>
-      </Link>
+      </a>
     </div>
     </div>
 

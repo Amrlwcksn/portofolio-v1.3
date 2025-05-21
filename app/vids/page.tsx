@@ -1,6 +1,5 @@
 'use clinet'
 import FadeContent from "../components/FadeContent/FadeContent";
-import Image from 'next/image';
 import Link from "next/link";
 
 const phots =()=>{

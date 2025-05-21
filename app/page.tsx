@@ -23,7 +23,7 @@ export default function Home() {
         <div className="md:px-60 px-8 ">
           {/* Logo */}
           <div className="font-bold text-gray-800 text-2xl">
-            <a onClick={scrollToTop} className="text-5xl hover:cursor-pointer">Portofolio</a>
+            <button onClick={scrollToTop} className="text-5xl hover:cursor-pointer">Portofolio</button>
             <p className="text-xs text-gray-500 font-sans">Craafting digital experience</p> 
           </div>
         </div>
