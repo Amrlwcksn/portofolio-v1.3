@@ -26,7 +26,7 @@ export default function Home() {
           <h1 className="text-4xl md:text-5xl -mt-1">Making cool photos, </h1>
           <h1 className="text-4xl md:text-5xl -mt-1"> vids & websites happen.</h1>
           <p className="font-sans mt-3 text-neutral-500">
-            I'm Ahmad Amirul Wicaksono. <br />
+            Im Ahmad Amirul Wicaksono. <br />
             From code to camera — Blending tech & creativity for impact, <br />
           </p>
           <p className="font-sans text-neutral-500 text-xs">
@@ -147,7 +147,7 @@ export default function Home() {
       {/* komunitas  */}
       <div className="px-8 py-5 font-sans md:px-40 mt-15">
         <FadeContent>
-          <h1 className="font-medium">Tech Events I've Joined</h1>
+          <h1 className="font-medium">Tech Events Ive Joined</h1>
           <div className="mt-3 flex justify-center">
             <Image
               src="/images/event1.jpg"
